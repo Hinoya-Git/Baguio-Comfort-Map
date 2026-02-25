@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+.leaflet-tooltip.neighborhood-label {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  color: #64748b; /* slate-500 */
+  font-weight: 700;
+  font-size: 0.75rem; /* text-xs */
+  text-transform: uppercase;
+  letter-spacing: 0.1em; /* tracking-widest */
+  text-shadow: 1px 1px 0 #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+
+.leaflet-tooltip.poi-label {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+  color: #334155; /* slate-700 */
+  font-weight: 600;
+  font-size: 0.7rem;
+  padding: 0 4px;
+  white-space: nowrap;
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Baguio Comfort Map",
+  "description": "A tourist dashboard for Baguio City featuring an interactive map, crowd level indicators, and simulated weather updates.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
